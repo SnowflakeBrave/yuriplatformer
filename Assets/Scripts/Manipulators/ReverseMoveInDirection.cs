@@ -4,7 +4,8 @@ using UnityEngine;
 public class ReverseMoveInDirection : MonoBehaviour
 {
     [Tooltip("Applies a constant force in this direction.")]
-    public Vector2 moveDirection;
+    public float moveSpeed = 3f;
+    [SerializeField] private LayerMask groundLayer;
     public bool scriptEnabled = true;
     private Rigidbody2D rigidbody2D;
     private BoxCollider2D collider2D;
@@ -27,7 +28,7 @@ public class ReverseMoveInDirection : MonoBehaviour
                 facingDirection *= -1;
             }
 
-            rigidbody2D.AddForce(moveDirection * facingDirection);
+            rigidbody2D.linearVelocity = new Vector2(moveSpeed * facingDirection, rigidbody2D.linearVelocity.y);
         }
     }
 
@@ -54,12 +55,7 @@ public class ReverseMoveInDirection : MonoBehaviour
     {
         Vector2 origin = new Vector2(collider2D.bounds.center.x, collider2D.bounds.min.y);
 
-        RaycastHit2D hit = Physics2D.Raycast(
-            origin,
-            Vector2.down,
-            collider2D.bounds.extents.y + 0.1f,
-            LayerMask.GetMask("Default")
-        );
+        RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.down, 0.1f, groundLayer);
 
         return hit.collider != null;
     }
