@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: a35270d0cfd944c7cab14ab9400543cc
+guid: a8217fa4809c0494391a54119850fbfd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7231328931971455594
-    second: kenny_0
+      213: 4689327332371396593
+    second: maincharacter_0
   - first:
-      213: -2616167744291572708
-    second: kenny_1
+      213: 294176676483396713
+    second: maincharacter_1
   - first:
-      213: -9151246326518397984
-    second: kenny_2
+      213: -521712934710741187
+    second: maincharacter_2
   - first:
-      213: -5298284591519798419
-    second: kenny_3
+      213: 2977994818989248023
+    second: maincharacter_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -106,46 +106,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: tvOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -161,89 +122,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: kenny_0
+      name: maincharacter_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 24
-        height: 24
-      alignment: 9
-      pivot: {x: 0.5, y: 0.33}
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a6ad924b957da5460800000000000000
-      internalID: 7231328931971455594
+      spriteID: 1f7f6891d56d31140800000000000000
+      internalID: 4689327332371396593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kenny_1
+      name: maincharacter_1
       rect:
         serializedVersion: 2
-        x: 24
+        x: 16
         y: 0
-        width: 24
-        height: 24
-      alignment: 9
-      pivot: {x: 0.5, y: 0.33}
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 331eba910830e4a858afcd9b546b1b47
-      internalID: -2616167744291572708
+      spriteID: 9647ffee020251400800000000000000
+      internalID: 294176676483396713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kenny_2
+      name: maincharacter_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37f6db99d082c8f0800000000000000
+      internalID: -521712934710741187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maincharacter_3
       rect:
         serializedVersion: 2
         x: 48
         y: 0
-        width: 24
-        height: 24
-      alignment: 9
-      pivot: {x: 0.5, y: 0.33}
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1a16f197173624b6b93edcf9cfaa52f9
-      internalID: -9151246326518397984
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kenny_3
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 0
-        width: 24
-        height: 24
-      alignment: 9
-      pivot: {x: 0.5, y: 0.33}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fea58b3294df34388b02e6cbcc90457b
-      internalID: -5298284591519798419
+      spriteID: 71ecec08286f35920800000000000000
+      internalID: 2977994818989248023
       vertices: []
       indices: 
       edges: []
@@ -252,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 47084eddef7be4c65a17685e196bd788
+    spriteID: 37b021c85f6247f45abc062782d21875
     internalID: 0
     vertices: []
     indices: 
@@ -262,10 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      kenny_0: 7231328931971455594
-      kenny_1: -2616167744291572708
-      kenny_2: -9151246326518397984
-      kenny_3: -5298284591519798419
+      maincharacter_0: 4689327332371396593
+      maincharacter_1: 294176676483396713
+      maincharacter_2: -521712934710741187
+      maincharacter_3: 2977994818989248023
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
